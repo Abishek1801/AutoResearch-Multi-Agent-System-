@@ -1,0 +1,314 @@
+{
+  "planner_input": {
+    "question": "What are the primary mechanisms by which large language models hallucinate, and what mitigation strategies have been proposed?"
+  },
+  "planner_output": {
+    "sub_questions": [
+      "What are the common causes of hallucination in large language models?",
+      "How do training data biases contribute to hallucination in these models?",
+      "What are the proposed strategies to mitigate hallucination in large language models?",
+      "How effective are current mitigation strategies in reducing hallucination occurrences?",
+      "What role does model architecture play in the tendency to hallucinate?"
+    ],
+    "keywords": [
+      [
+        "causes",
+        "hallucination",
+        "language models"
+      ],
+      [
+        "training data",
+        "biases",
+        "contribution"
+      ],
+      [
+        "mitigation strategies",
+        "proposed",
+        "solutions"
+      ],
+      [
+        "effectiveness",
+        "current strategies",
+        "reduction"
+      ],
+      [
+        "model architecture",
+        "tendency",
+        "hallucinate"
+      ]
+    ],
+    "scope": "This research will include an analysis of the mechanisms behind hallucination in large language models, the impact of training data and model architecture, and a review of proposed mitigation strategies. It will exclude detailed technical implementations of the models and focus on theoretical aspects and empirical findings."
+  },
+  "retriever_outputs": [
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the common causes of hallucination in large language models?",
+        "keywords": [
+          "causes",
+          "hallucination",
+          "language models"
+        ]
+      },
+      "output": {
+        "snippets": [
+          {
+            "text": "A language model is a computational model that predicts sequences in natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation, optical character recognition, route optimization, handwriting recognition, grammar induction, and information retrieval.",
+            "url": "https://en.wikipedia.org/wiki/Language_model",
+            "title": "Language model"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How do training data biases contribute to hallucination in these models?",
+        "keywords": [
+          "training data",
+          "biases",
+          "contribution"
+        ]
+      },
+      "output": {
+        "snippets": [
+          {
+            "text": "In machine learning, a common task is the study and construction of algorithms that can learn from and make predictions on data. Such algorithms function by making data-driven predictions or decisions, through building a mathematical model from input data. These input data used to build the model are usually divided into multiple data sets. In particular, three data sets are commonly used in different stages of the creation of the model: training, validation, and testing sets.",
+            "url": "https://en.wikipedia.org/wiki/Training%2C_validation%2C_and_test_data_sets",
+            "title": "Training, validation, and test data sets"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the proposed strategies to mitigate hallucination in large language models?",
+        "keywords": [
+          "mitigation strategies",
+          "proposed",
+          "solutions"
+        ]
+      },
+      "output": {
+        "snippets": [
+          {
+            "text": "A language model is a computational model that predicts sequences in natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation, optical character recognition, route optimization, handwriting recognition, grammar induction, and information retrieval.",
+            "url": "https://en.wikipedia.org/wiki/Language_model",
+            "title": "Language model"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How effective are current mitigation strategies in reducing hallucination occurrences?",
+        "keywords": [
+          "effectiveness",
+          "current strategies",
+          "reduction"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What role does model architecture play in the tendency to hallucinate?",
+        "keywords": [
+          "model architecture",
+          "tendency",
+          "hallucinate"
+        ]
+      },
+      "output": {
+        "snippets": [
+          {
+            "text": "A role model is a person whose behaviour, example, or success serves as a model to be emulated by others, especially by younger people. The term role model is credited to sociologist Robert K. Merton, who hypothesized that individuals compare themselves with reference groups of people who occupy the social role to which the individual aspires, an example of which is the way young fans may idolize and imitate professional athletes or entertainment artists.",
+            "url": "https://en.wikipedia.org/wiki/Role_model",
+            "title": "Role model"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the common causes of hallucination in large language models?",
+        "keywords": []
+      },
+      "output": {
+        "snippets": [
+          {
+            "text": "A language model is a computational model that predicts sequences in natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation, optical character recognition, route optimization, handwriting recognition, grammar induction, and information retrieval.",
+            "url": "https://en.wikipedia.org/wiki/Language_model",
+            "title": "Language model"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the proposed strategies to mitigate hallucination in large language models?",
+        "keywords": []
+      },
+      "output": {
+        "snippets": [
+          {
+            "text": "A language model is a computational model that predicts sequences in natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation, optical character recognition, route optimization, handwriting recognition, grammar induction, and information retrieval.",
+            "url": "https://en.wikipedia.org/wiki/Language_model",
+            "title": "Language model"
+          }
+        ]
+      }
+    }
+  ],
+  "summarizer_outputs": [
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the common causes of hallucination in large language models?",
+        "snippets": [
+          {
+            "text": "A language model is a computational model that predicts sequences in natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation, optical character recognition, route optimization, handwriting recognition, grammar induction, and information retrieval.",
+            "url": "https://en.wikipedia.org/wiki/Language_model",
+            "title": "Language model"
+          }
+        ]
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How do training data biases contribute to hallucination in these models?",
+        "snippets": [
+          {
+            "text": "In machine learning, a common task is the study and construction of algorithms that can learn from and make predictions on data. Such algorithms function by making data-driven predictions or decisions, through building a mathematical model from input data. These input data used to build the model are usually divided into multiple data sets. In particular, three data sets are commonly used in different stages of the creation of the model: training, validation, and testing sets.",
+            "url": "https://en.wikipedia.org/wiki/Training%2C_validation%2C_and_test_data_sets",
+            "title": "Training, validation, and test data sets"
+          }
+        ]
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the proposed strategies to mitigate hallucination in large language models?",
+        "snippets": [
+          {
+            "text": "A language model is a computational model that predicts sequences in natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation, optical character recognition, route optimization, handwriting recognition, grammar induction, and information retrieval.",
+            "url": "https://en.wikipedia.org/wiki/Language_model",
+            "title": "Language model"
+          }
+        ]
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How effective are current mitigation strategies in reducing hallucination occurrences?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What role does model architecture play in the tendency to hallucinate?",
+        "snippets": [
+          {
+            "text": "A role model is a person whose behaviour, example, or success serves as a model to be emulated by others, especially by younger people. The term role model is credited to sociologist Robert K. Merton, who hypothesized that individuals compare themselves with reference groups of people who occupy the social role to which the individual aspires, an example of which is the way young fans may idolize and imitate professional athletes or entertainment artists.",
+            "url": "https://en.wikipedia.org/wiki/Role_model",
+            "title": "Role model"
+          }
+        ]
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the common causes of hallucination in large language models?",
+        "snippets": [
+          {
+            "text": "A language model is a computational model that predicts sequences in natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation, optical character recognition, route optimization, handwriting recognition, grammar induction, and information retrieval.",
+            "url": "https://en.wikipedia.org/wiki/Language_model",
+            "title": "Language model"
+          }
+        ]
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the proposed strategies to mitigate hallucination in large language models?",
+        "snippets": [
+          {
+            "text": "A language model is a computational model that predicts sequences in natural language. Language models are useful for a variety of tasks, including speech recognition, machine translation, natural language generation, optical character recognition, route optimization, handwriting recognition, grammar induction, and information retrieval.",
+            "url": "https://en.wikipedia.org/wiki/Language_model",
+            "title": "Language model"
+          }
+        ]
+      },
+      "output": {
+        "facts": []
+      }
+    }
+  ],
+  "critic_input": {
+    "all_facts": [],
+    "sub_questions": [
+      "What are the common causes of hallucination in large language models?",
+      "How do training data biases contribute to hallucination in these models?",
+      "What are the proposed strategies to mitigate hallucination in large language models?",
+      "How effective are current mitigation strategies in reducing hallucination occurrences?",
+      "What role does model architecture play in the tendency to hallucinate?"
+    ]
+  },
+  "critic_output": {
+    "gaps": [
+      "What are the common causes of hallucination in large language models?",
+      "How do training data biases contribute to hallucination in these models?",
+      "What are the proposed strategies to mitigate hallucination in large language models?",
+      "How effective are current mitigation strategies in reducing hallucination occurrences?",
+      "What role does model architecture play in the tendency to hallucinate?"
+    ],
+    "requery_needed": true,
+    "requery_questions": [
+      "What are the common causes of hallucination in large language models?",
+      "What are the proposed strategies to mitigate hallucination in large language models?"
+    ]
+  },
+  "writer_input": {
+    "sub_questions": [
+      "What are the common causes of hallucination in large language models?",
+      "How do training data biases contribute to hallucination in these models?",
+      "What are the proposed strategies to mitigate hallucination in large language models?",
+      "How effective are current mitigation strategies in reducing hallucination occurrences?",
+      "What role does model architecture play in the tendency to hallucinate?"
+    ],
+    "facts": [],
+    "scope": "This research will include an analysis of the mechanisms behind hallucination in large language models, the impact of training data and model architecture, and a review of proposed mitigation strategies. It will exclude detailed technical implementations of the models and focus on theoretical aspects and empirical findings."
+  },
+  "final_report": "# Analysis of Hallucination in Large Language Models\n\n## Executive Summary\n\nThis report analyzes the mechanisms behind hallucination in large language models, focusing on the impact of training data, model architecture, and proposed mitigation strategies. The findings are based on theoretical aspects and empirical evidence, excluding detailed technical implementations.\n\n## What are the common causes of hallucination in large language models?\n\n- No specific causes of hallucination in large language models are provided in the available facts.\n\n## How do training data biases contribute to hallucination in these models?\n\n- No specific information on how training data biases contribute to hallucination is provided in the available facts.\n\n## What are the proposed strategies to mitigate hallucination in large language models?\n\n- No proposed strategies to mitigate hallucination in large language models are provided in the available facts.\n\n## How effective are current mitigation strategies in reducing hallucination occurrences?\n\n- No information on the effectiveness of current mitigation strategies in reducing hallucination occurrences is provided in the available facts.\n\n## What role does model architecture play in the tendency to hallucinate?\n\n- No information on the role of model architecture in the tendency to hallucinate is provided in the available facts.\n\n## Limitations\n\n- The report is limited by the absence of specific facts regarding causes of hallucination, contributions of training data biases, proposed mitigation strategies, their effectiveness, and the role of model architecture.\n- The analysis is based solely on theoretical aspects and empirical findings without detailed technical implementations."
+}

@@ -1,0 +1,256 @@
+{
+  "planner_input": {
+    "question": "What are the main mechanisms of action of mRNA vaccines, and how has uptake varied by region?"
+  },
+  "planner_output": {
+    "sub_questions": [
+      "What are the key biological processes involved in the action of mRNA vaccines?",
+      "How do mRNA vaccines stimulate an immune response in the body?",
+      "What factors influence the regional uptake of mRNA vaccines?",
+      "How has public perception affected the distribution of mRNA vaccines in different areas?",
+      "What are the differences in mRNA vaccine uptake between urban and rural populations?"
+    ],
+    "keywords": [
+      [
+        "biological processes",
+        "immune response",
+        "mRNA technology",
+        "vaccine mechanism",
+        "protein synthesis"
+      ],
+      [
+        "immune activation",
+        "antigen presentation",
+        "T cells",
+        "B cells",
+        "neutralizing antibodies"
+      ],
+      [
+        "regional differences",
+        "socioeconomic factors",
+        "healthcare access",
+        "government policies"
+      ],
+      [
+        "public perception",
+        "media influence",
+        "trust in science",
+        "vaccine hesitancy"
+      ],
+      [
+        "urban populations",
+        "rural populations",
+        "access to healthcare",
+        "demographic factors"
+      ]
+    ],
+    "scope": "This research will include an analysis of the biological mechanisms of mRNA vaccines, factors affecting their uptake across different regions, and the impact of public perception on vaccination rates. It will exclude detailed clinical trial data and focus primarily on observational studies and surveys."
+  },
+  "retriever_outputs": [
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the key biological processes involved in the action of mRNA vaccines?",
+        "keywords": [
+          "biological processes",
+          "immune response",
+          "mRNA technology",
+          "vaccine mechanism",
+          "protein synthesis"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How do mRNA vaccines stimulate an immune response in the body?",
+        "keywords": [
+          "immune activation",
+          "antigen presentation",
+          "T cells",
+          "B cells",
+          "neutralizing antibodies"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What factors influence the regional uptake of mRNA vaccines?",
+        "keywords": [
+          "regional differences",
+          "socioeconomic factors",
+          "healthcare access",
+          "government policies"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How has public perception affected the distribution of mRNA vaccines in different areas?",
+        "keywords": [
+          "public perception",
+          "media influence",
+          "trust in science",
+          "vaccine hesitancy"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the differences in mRNA vaccine uptake between urban and rural populations?",
+        "keywords": [
+          "urban populations",
+          "rural populations",
+          "access to healthcare",
+          "demographic factors"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the key biological processes involved in the action of mRNA vaccines?",
+        "keywords": []
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "How do mRNA vaccines stimulate an immune response in the body?",
+        "keywords": []
+      },
+      "output": {
+        "snippets": []
+      }
+    }
+  ],
+  "summarizer_outputs": [
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the key biological processes involved in the action of mRNA vaccines?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How do mRNA vaccines stimulate an immune response in the body?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What factors influence the regional uptake of mRNA vaccines?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How has public perception affected the distribution of mRNA vaccines in different areas?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the differences in mRNA vaccine uptake between urban and rural populations?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the key biological processes involved in the action of mRNA vaccines?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "How do mRNA vaccines stimulate an immune response in the body?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    }
+  ],
+  "critic_input": {
+    "all_facts": [],
+    "sub_questions": [
+      "What are the key biological processes involved in the action of mRNA vaccines?",
+      "How do mRNA vaccines stimulate an immune response in the body?",
+      "What factors influence the regional uptake of mRNA vaccines?",
+      "How has public perception affected the distribution of mRNA vaccines in different areas?",
+      "What are the differences in mRNA vaccine uptake between urban and rural populations?"
+    ]
+  },
+  "critic_output": {
+    "gaps": [
+      "What are the key biological processes involved in the action of mRNA vaccines?",
+      "How do mRNA vaccines stimulate an immune response in the body?",
+      "What factors influence the regional uptake of mRNA vaccines?",
+      "How has public perception affected the distribution of mRNA vaccines in different areas?",
+      "What are the differences in mRNA vaccine uptake between urban and rural populations?"
+    ],
+    "requery_needed": true,
+    "requery_questions": [
+      "What are the key biological processes involved in the action of mRNA vaccines?",
+      "How do mRNA vaccines stimulate an immune response in the body?"
+    ]
+  },
+  "writer_input": {
+    "sub_questions": [
+      "What are the key biological processes involved in the action of mRNA vaccines?",
+      "How do mRNA vaccines stimulate an immune response in the body?",
+      "What factors influence the regional uptake of mRNA vaccines?",
+      "How has public perception affected the distribution of mRNA vaccines in different areas?",
+      "What are the differences in mRNA vaccine uptake between urban and rural populations?"
+    ],
+    "facts": [],
+    "scope": "This research will include an analysis of the biological mechanisms of mRNA vaccines, factors affecting their uptake across different regions, and the impact of public perception on vaccination rates. It will exclude detailed clinical trial data and focus primarily on observational studies and surveys."
+  },
+  "final_report": "# Analysis of mRNA Vaccines\n\n## Executive Summary\n\nThis report analyzes the biological mechanisms of mRNA vaccines, factors influencing their uptake across different regions, and the impact of public perception on vaccination rates. It does not include detailed clinical trial data and focuses on observational studies and surveys.\n\n## What are the key biological processes involved in the action of mRNA vaccines?\n\n- The report will analyze the biological mechanisms of mRNA vaccines, but specific details are not provided in the facts.\n\n## How do mRNA vaccines stimulate an immune response in the body?\n\n- The report will examine how mRNA vaccines stimulate an immune response, but specific details are not provided in the facts.\n\n## What factors influence the regional uptake of mRNA vaccines?\n\n- The report will include an analysis of factors affecting the uptake of mRNA vaccines across different regions, but specific details are not provided in the facts.\n\n## How has public perception affected the distribution of mRNA vaccines in different areas?\n\n- The report will explore the impact of public perception on vaccination rates, but specific details are not provided in the facts.\n\n## What are the differences in mRNA vaccine uptake between urban and rural populations?\n\n- The report will investigate differences in mRNA vaccine uptake between urban and rural populations, but specific details are not provided in the facts.\n\n## Limitations\n\n- The analysis excludes detailed clinical trial data.\n- The focus is primarily on observational studies and surveys.\n- Specific biological processes, immune response mechanisms, factors influencing uptake, and public perception details are not provided."
+}
