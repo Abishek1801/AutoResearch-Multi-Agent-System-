@@ -1,7 +1,9 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 
-const API_URL = "http://localhost:8000/run";
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  (window.location.hostname === "localhost" ? "http://localhost:8000/run" : "/api/run");
 
 function getTraceSummary(trace) {
   if (!trace) {

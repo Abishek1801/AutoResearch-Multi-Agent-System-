@@ -9,3 +9,4 @@ backend/__pycache__/
 backend/outputs/*
 backend/run_trace_*.json
 !backend/outputs/.gitkeep
+.vercel

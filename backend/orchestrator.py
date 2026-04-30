@@ -8,6 +8,7 @@ from .agents.planner import Planner
 from .agents.retriever import Retriever
 from .agents.summarizer import Summarizer
 from .agents.writer import Writer
+from .settings import get_settings
 
 # Flow: one retrieval+summarize pass for all planner sub-questions, then at most one
 # additional pass for critic requery_questions (two retrieval phases total).
@@ -70,7 +71,9 @@ def _validate_critic(data: dict) -> dict:
 
 def _save_run_trace(trace: dict[str, Any]) -> Path:
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    path = Path(__file__).resolve().parent / f"run_trace_{ts}.json"
+    trace_dir = get_settings().trace_dir
+    trace_dir.mkdir(parents=True, exist_ok=True)
+    path = trace_dir / f"run_trace_{ts}.json"
     with path.open("w", encoding="utf-8") as f:
         json.dump(trace, f, ensure_ascii=False, indent=2)
     return path

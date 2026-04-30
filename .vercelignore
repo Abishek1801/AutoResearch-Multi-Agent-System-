@@ -1,0 +1,10 @@
+.git
+.venv
+frontend/node_modules
+frontend/dist
+backend/__pycache__
+backend/run_trace_*.json
+backend/outputs/*
+!.gitkeep
+*.pyc
+__pycache__

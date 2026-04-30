@@ -6,6 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from .orchestrator import Orchestrator
+from .settings import get_settings
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -31,7 +32,8 @@ app.add_middleware(
 
 
 def _load_latest_trace() -> dict | None:
-    trace_files = sorted(BASE_DIR.glob("run_trace_*.json"), key=lambda path: path.stat().st_mtime)
+    trace_dir = get_settings().trace_dir
+    trace_files = sorted(trace_dir.glob("run_trace_*.json"), key=lambda path: path.stat().st_mtime)
     if not trace_files:
         return None
 
