@@ -1,0 +1,242 @@
+{
+  "planner_input": {
+    "question": "what is agentic AI?"
+  },
+  "planner_output": {
+    "sub_questions": [
+      "What are the defining characteristics of agentic AI?",
+      "How does agentic AI differ from traditional AI systems?",
+      "What are the potential applications of agentic AI in various industries?",
+      "What ethical considerations arise from the development of agentic AI?",
+      "What are the current challenges in implementing agentic AI technologies?"
+    ],
+    "keywords": [
+      [
+        "agentic AI",
+        "characteristics",
+        "definition"
+      ],
+      [
+        "traditional AI",
+        "differences",
+        "comparison"
+      ],
+      [
+        "applications",
+        "industries",
+        "use cases"
+      ],
+      [
+        "ethics",
+        "considerations",
+        "implications"
+      ],
+      [
+        "challenges",
+        "implementation",
+        "barriers"
+      ]
+    ],
+    "scope": "This research will include an exploration of the characteristics, differences, applications, ethical considerations, and challenges of agentic AI, focusing on current technologies and theoretical frameworks while excluding non-agentic AI systems and speculative future developments."
+  },
+  "retriever_outputs": [
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the defining characteristics of agentic AI?",
+        "keywords": [
+          "agentic AI",
+          "characteristics",
+          "definition"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How does agentic AI differ from traditional AI systems?",
+        "keywords": [
+          "traditional AI",
+          "differences",
+          "comparison"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the potential applications of agentic AI in various industries?",
+        "keywords": [
+          "applications",
+          "industries",
+          "use cases"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What ethical considerations arise from the development of agentic AI?",
+        "keywords": [
+          "ethics",
+          "considerations",
+          "implications"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the current challenges in implementing agentic AI technologies?",
+        "keywords": [
+          "challenges",
+          "implementation",
+          "barriers"
+        ]
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the defining characteristics of agentic AI?",
+        "keywords": []
+      },
+      "output": {
+        "snippets": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the potential applications of agentic AI in various industries?",
+        "keywords": []
+      },
+      "output": {
+        "snippets": []
+      }
+    }
+  ],
+  "summarizer_outputs": [
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the defining characteristics of agentic AI?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "How does agentic AI differ from traditional AI systems?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the potential applications of agentic AI in various industries?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What ethical considerations arise from the development of agentic AI?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "initial",
+      "input": {
+        "sub_question": "What are the current challenges in implementing agentic AI technologies?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the defining characteristics of agentic AI?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    },
+    {
+      "phase": "requery",
+      "input": {
+        "sub_question": "What are the potential applications of agentic AI in various industries?",
+        "snippets": []
+      },
+      "output": {
+        "facts": []
+      }
+    }
+  ],
+  "critic_input": {
+    "all_facts": [],
+    "sub_questions": [
+      "What are the defining characteristics of agentic AI?",
+      "How does agentic AI differ from traditional AI systems?",
+      "What are the potential applications of agentic AI in various industries?",
+      "What ethical considerations arise from the development of agentic AI?",
+      "What are the current challenges in implementing agentic AI technologies?"
+    ]
+  },
+  "critic_output": {
+    "gaps": [
+      "What are the defining characteristics of agentic AI?",
+      "How does agentic AI differ from traditional AI systems?",
+      "What are the potential applications of agentic AI in various industries?",
+      "What ethical considerations arise from the development of agentic AI?",
+      "What are the current challenges in implementing agentic AI technologies?"
+    ],
+    "requery_needed": true,
+    "requery_questions": [
+      "What are the defining characteristics of agentic AI?",
+      "What are the potential applications of agentic AI in various industries?"
+    ]
+  },
+  "writer_input": {
+    "sub_questions": [
+      "What are the defining characteristics of agentic AI?",
+      "How does agentic AI differ from traditional AI systems?",
+      "What are the potential applications of agentic AI in various industries?",
+      "What ethical considerations arise from the development of agentic AI?",
+      "What are the current challenges in implementing agentic AI technologies?"
+    ],
+    "facts": [],
+    "scope": "This research will include an exploration of the characteristics, differences, applications, ethical considerations, and challenges of agentic AI, focusing on current technologies and theoretical frameworks while excluding non-agentic AI systems and speculative future developments."
+  },
+  "final_report": "# Research Report on Agentic AI\n\n## Executive Summary\n\nThis report explores the characteristics, differences, applications, ethical considerations, and challenges of agentic AI. The focus is on current technologies and theoretical frameworks, excluding non-agentic AI systems and speculative future developments.\n\n## What are the defining characteristics of agentic AI?\n\n- No specific characteristics of agentic AI are provided in the facts.\n\n## How does agentic AI differ from traditional AI systems?\n\n- No specific differences between agentic AI and traditional AI systems are provided in the facts.\n\n## What are the potential applications of agentic AI in various industries?\n\n- No specific applications of agentic AI in various industries are provided in the facts.\n\n## What ethical considerations arise from the development of agentic AI?\n\n- No specific ethical considerations related to the development of agentic AI are provided in the facts.\n\n## What are the current challenges in implementing agentic AI technologies?\n\n- No specific challenges in implementing agentic AI technologies are provided in the facts.\n\n## Limitations\n\n- The report is limited by the absence of specific facts regarding the characteristics, differences, applications, ethical considerations, and challenges of agentic AI.\n- The scope excludes non-agentic AI systems and speculative future developments, which may limit the breadth of the analysis."
+}
